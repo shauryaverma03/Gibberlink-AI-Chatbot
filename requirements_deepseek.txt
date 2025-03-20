@@ -1,0 +1,9 @@
+📜 For DeepSeek AI, No API Key
+
+requests
+pyttsx3
+✅ requests → Needed for HTTP requests (if DeepSeek API requires)
+✅ pyttsx3 → Text-to-speech
+
+📌 Installation:
+pip install -r requirements_deepseek.txt
