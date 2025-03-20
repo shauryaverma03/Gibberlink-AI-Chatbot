@@ -30,7 +30,7 @@ def generate_gibberish():
 
 # Function to get a normal response using OpenAI's GPT
 def get_normal_response(user_input):
-    openai.api_key = 'OpenAI-API-Key'  # Replace with your OpenAI API key
+    openai.api_key = "YOUR_OPENAI_API_KEY_HERE"  # Replace with your OpenAI API key
 
     try:
         response = openai.ChatCompletion.create(
