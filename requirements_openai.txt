@@ -1,0 +1,12 @@
+📜 For OpenAI API
+
+openai
+requests
+pyttsx3
+
+✅ openai → Required for OpenAI API calls
+✅ requests → General API handling
+✅ pyttsx3 → Text-to-speech (TTS)
+
+📌 Installation:
+pip install -r requirements_openai.txt
