@@ -22,7 +22,7 @@ Gibberlink AI is a fun chatbot that can generate **gibberish responses** and nor
 
 ### Step 1️⃣: Clone the Repository
 ```sh
-git clone https://github.com/your-username/Gibberlink-AI.git
+git clone https://github.com/shauryaverma03/Gibberlink-AI-Chatbot.git
 cd Gibberlink-AI
 ```
 
