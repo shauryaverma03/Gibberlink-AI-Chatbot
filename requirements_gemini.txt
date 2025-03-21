@@ -3,6 +3,7 @@
 google-generativeai
 requests
 pyttsx3
+
 ✅ google-generativeai → Required for Gemini API calls
 ✅ requests → General API handling
 ✅ pyttsx3 → Text-to-speech (TTS)
