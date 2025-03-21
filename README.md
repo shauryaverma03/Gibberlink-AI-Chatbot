@@ -1,6 +1,6 @@
 # 🚀 Gibberlink AI Chatbot
 
-Gibberlink AI is a fun chatbot that can generate **gibberish responses** and normal responses using either **OpenAI API** or **DeepSeek AI**.
+Gibberlink AI is a fun chatbot that can generate **gibberish responses** and normal responses using **OpenAI API**, **DeepSeek AI**, and **Gemini AI**.
 
 ---
 
