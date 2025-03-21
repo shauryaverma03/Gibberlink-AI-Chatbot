@@ -10,8 +10,10 @@ Gibberlink AI is a fun chatbot that can generate **gibberish responses** and nor
 📂 Gibberlink-AI
  ┣ 📜 gibberlink_openai.py      # OpenAI API version
  ┣ 📜 gibberlink_deepseek.py    # DeepSeek AI version
+ ┣ 📜 gibberlink_gemini.py      # Gemini AI version
  ┣ 📜 requirements_openai.txt   # Dependencies for OpenAI
  ┣ 📜 requirements_deepseek.txt # Dependencies for DeepSeek
+ ┣ 📜 requirements_gemini.txt   # Dependencies for Gemini
  ┣ 📜 README.md                 # Documentation
  ┣ 📜 .gitignore                # Ignore unnecessary files
 ```
@@ -65,6 +67,26 @@ pip install -r requirements_deepseek.txt
 #### Run the chatbot:
 ```sh
 python gibberlink_deepseek.py
+```
+
+---
+
+### **📌 3. Gemini AI Version**
+#### Install dependencies:
+```sh
+pip install -r requirements_gemini.txt
+```
+
+#### Add Gemini API Key:
+Edit `gibberlink_gemini.py` and replace:
+```python
+import google.generativeai as genai
+genai.configure(api_key="YOUR_GEMINI_API_KEY")
+```
+
+#### Run the chatbot:
+```sh
+python gibberlink_gemini.py
 ```
 
 ---
