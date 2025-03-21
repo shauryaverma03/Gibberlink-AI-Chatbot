@@ -1,0 +1,23 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+gibberlink_env/
+
+# Ignore dependency files
+*.log
+*.cache
+*.DS_Store
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# Ignore API keys or config files (if any)
+config.json
+.env
